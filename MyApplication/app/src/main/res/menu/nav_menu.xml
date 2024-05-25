@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sección de elementos del menú -->
+    <group android:checkableBehavior="single">
+
+        <!-- Elemento del menú 1 -->
+        <item
+            android:id="@+id/menu_item1"
+            android:title="Opción 1" />
+
+        <!-- Elemento del menú 2 -->
+        <item
+            android:id="@+id/menu_item2"
+            android:title="Opción 2" />
+
+        <!-- Elemento del menú 3 -->
+        <item
+            android:id="@+id/menu_item3"
+            android:title="Opción 3" />
+
+    </group>
+
+    <!-- Sección de encabezado del menú -->
+    <group android:id="@+id/menu_group_header">
+        <item
+            android:id="@+id/menu_header"
+            android:title="Encabezado del Menú" />
+    </group>
+
+    <!-- Opciones de cierre de sesión -->
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Cerrar Sesión" />
+
+</menu>
